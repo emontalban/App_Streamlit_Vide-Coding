@@ -33,11 +33,7 @@ Para instalar las dependencias que figuran en el archivo, ejecuta este comando c
 ```powershell
 python -m pip install -r requirements.txt
 ```
-El archivo se ha creado automaticamente con 
 
-```powershell
-python -m pip freeze > requirements.txt
-```
 Si ya instalaste Streamlit en un entorno limpio y quieres generar un archivo con las versiones exactas de todos los paquetes instalados, puedes usar `python -m pip freeze > requirements.txt`. Ese comando sobrescribe el archivo e incluye también las dependencias de Streamlit. Para este ejercicio basta con escribir `streamlit` a mano.
 
 ## 4. Crea el archivo app.py
